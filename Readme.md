@@ -1,5 +1,5 @@
 
-## Motrolix-top-menu-bar plugin v1.0.2
+## Motrolix-top-menu-bar plugin v1.0.1
 
 - Removed fast click function in mtmb-top-menu-bar.js
 - Removed calls to load fastclick in scripts.php
