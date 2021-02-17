@@ -1,0 +1,52 @@
+.search_overlay{
+	top:0;
+ 	height: 100%;
+	width: 100%;
+	background-color: #000000;
+/*	background-color: #0088b2; */
+	position: fixed;
+	z-index: 998;
+}
+
+form#search{
+    display: none;
+    position: fixed;
+    top: 55px;
+    padding: 40px 25px 25px 25px;
+    width: 350px;
+    z-index: 999;
+    left: 50%;
+    margin-left: -200px;
+    color: #878787;
+    font-size: 11px;
+}
+
+form#search div.close{
+color: rgba(255,255,255,0.6);
+    float: right;
+    font-size: 30px;
+}
+
+form#search input#mb-searcvhbox {
+	background-color: transparent;
+	width: 100%;
+	height: 56px;
+	font-size: 26px;
+	font-weight: 600;
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 15px;
+	border-color: #fff;
+	border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: dotted;
+  border-left-style: none;
+color: rgba(255,255,255,0.8);
+}
+
+form#search p.search-label{
+padding-top: 10px;
+color: rgba(255,255,255,0.6);
+font-size: 18px;
+
+}

@@ -1,0 +1,83 @@
+body {
+	padding-top: 58px!important;
+}
+.mtmb-fixed {
+	position:fixed !important;
+	top:0;
+	left:0 !important;
+	margin:0 auto !important;
+	width:100% !important;
+	z-index: 2000;
+}
+
+.social-module:hover {
+	z-index: 2001;
+}
+
+.nav-toggle {
+	float: left;
+}
+.mtmb-show {
+	display: block;
+	float: right;
+}	 
+.tg-xt {
+	display: none!important;
+}
+.mtmb-shown {
+	top: 0px;
+
+	-webkit-transition: top 200ms ease;
+	-moz-transition: top 200ms ease;
+	-ms-transition: top 200ms ease;
+	-o-transition: top 200ms ease;
+	transition: top 200ms ease;
+	
+	-moz-transform: translateX(0px);
+	-webkit-transform: translateX(0px);
+	-o-transform: translateX(0px);
+	-ms-transform: translateX(0px);
+	transform: translateX(0px);
+}
+.mtmb-hidden {
+	top: -55px;
+	-webkit-transition: top 200ms ease;
+	-moz-transition: top 200ms ease;
+	-ms-transition: top 200ms ease;
+	-o-transition: top 200ms ease;
+	transition: top 200ms ease;
+	
+	-moz-transform: translateX(0px);
+	-webkit-transform: translateX(0px);
+	-o-transform: translateX(0px);
+	-ms-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+
+@media only screen and (max-width: 719px) {
+	.mtmb-nav { 
+		float: right;
+		width: auto;
+	}
+	.mtmb-show {
+		margin-top: 10px;
+	}
+	.tg-xt {
+	display: block!important;
+	}
+	.tg-hide{
+		display: none!important;
+		width:100%;
+	}
+	#logo a {
+		padding-top: 10px;
+	}
+	#menu-header li {
+		margin-right: 25px;
+	}
+.social-module {
+	z-index: 500;
+}
+	
+}
